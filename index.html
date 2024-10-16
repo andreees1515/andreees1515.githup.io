@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POO - Programación Orientada a Objetos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Programación Orientada a Objetos (POO)</h1>
+        <p>Conoce los principios de la POO y cómo nos ayuda a crear software modular y eficiente.</p>
+    </header>
+
+    <section class="introduction">
+        <p>La Programación Orientada a Objetos (POO) es uno de los paradigmas más importantes en la programación moderna. A continuación, exploraremos sus orígenes, su utilidad y sus conceptos clave.</p>
+    </section>
+
+    <section class="content">
+        <!-- 1. Quién creó la POO, cuándo y por qué -->
+        <div class="concept">
+            <h2>1. ¿Quién creó la POO, cuándo y por qué?</h2>
+            <p>La Programación Orientada a Objetos fue creada por **Ole-Johan Dahl** y **Kristen Nygaard** a principios de los años 60 mientras trabajaban en el Centro de Cómputo Noruego en Oslo. El propósito original de la POO era facilitar la simulación de sistemas complejos, específicamente para proyectos militares y simulaciones económicas. El lenguaje de programación que introdujo estos conceptos fue **Simula 67**, desarrollado en 1967, que introdujo las ideas de objetos y clases.</p>
+            <p>Con el tiempo, este paradigma se expandió y fue adoptado por lenguajes más modernos como **Smalltalk**, **C++**, **Java** y **Python**, ayudando a los desarrolladores a crear software más estructurado, modular y mantenible.</p>
+            <img src="creadores_poo.png" alt="Ole-Johan Dahl y Kristen Nygaard" />
+        </div>
+
+        <!-- 2. ¿Para qué nos ayuda la POO? -->
+        <div class="concept">
+            <h2>2. ¿Para qué nos ayuda la POO?</h2>
+            <p>La Programación Orientada a Objetos nos ayuda a organizar mejor nuestro código mediante la creación de **objetos** que simulan entidades del mundo real o conceptos abstractos. Al utilizar la POO, obtenemos múltiples beneficios como:</p>
+            <ul>
+                <li><strong>Reutilización de código:</strong> A través de la herencia y los métodos, podemos reutilizar comportamientos comunes en diferentes partes del software, evitando la duplicación de código.</li>
+                <li><strong>Modularidad:</strong> Al dividir el programa en pequeñas piezas (clases y objetos), es más fácil de mantener y entender.</li>
+                <li><strong>Escalabilidad:</strong> Facilita el crecimiento y evolución del software a medida que se amplían las funcionalidades sin afectar el código existente.</li>
+                <li><strong>Mantenibilidad:</strong> Al encapsular datos, protegemos la integridad de los mismos, facilitando el manejo de errores y cambios en el software.</li>
+            </ul>
+            <img src="beneficios_poo.png" alt="Beneficios de la POO" />
+        </div>
+
+        <!-- 3. Clases -->
+        <div class="concept">
+            <h2>3. Clases</h2>
+            <p>Una **clase** es el plano o molde a partir del cual se crean objetos. Define atributos (propiedades) y métodos (acciones) que tendrán los objetos. Por ejemplo, una clase <strong>Persona</strong> puede tener atributos como <em>nombre</em> y <em>edad</em>, y métodos como <em>hablar</em> o <em>caminar</em>.</p>
+            <img src="clase.png" alt="Diagrama de clase" />
+        </div>
+
+        <!-- 4. Objetos -->
+        <div class="concept">
+            <h2>4. Objetos</h2>
+            <p>Los **objetos** son instancias de una clase. Es decir, cuando se crea un objeto a partir de una clase, ese objeto tendrá los atributos y métodos definidos en la clase. Por ejemplo, si la clase es <strong>Coche</strong>, un objeto sería un coche específico como un **Coche rojo modelo Toyota**.</p>
+            <img src="objeto.png" alt="Diagrama de objeto" />
+        </div>
+
+        <!-- 5. Encapsulamiento -->
+        <div class="concept">
+            <h2>5. Encapsulamiento</h2>
+            <p>El **encapsulamiento** se refiere a ocultar los detalles internos de los objetos y exponer solo lo necesario. Esto se hace mediante modificadores de acceso, como <em>privado</em> y <em>público</em>, para proteger los datos y evitar que se manipulen de manera incorrecta desde fuera del objeto.</p>
+            <img src="encapsulamiento.png" alt="Diagrama de encapsulamiento" />
+        </div>
+
+        <!-- 6. Herencia -->
+        <div class="concept">
+            <h2>6. Herencia</h2>
+            <p>La **herencia** permite que una clase hija herede los atributos y métodos de una clase padre. Esto facilita la reutilización de código y la creación de relaciones jerárquicas. Por ejemplo, una clase <strong>Animal</strong> puede tener una subclase <strong>Perro</strong>, que hereda comportamientos como <em>comer</em> y <em>dormir</em>.</p>
+            <img src="herencia.png" alt="Diagrama de herencia" />
+        </div>
+
+        <!-- 7. Polimorfismo -->
+        <div class="concept">
+            <h2>7. Polimorfismo</h2>
+            <p>El **polimorfismo** permite que un mismo método tenga diferentes comportamientos según el objeto que lo invoque. En otras palabras, un mismo mensaje puede producir diferentes respuestas. Por ejemplo, el método <strong>sonido()</strong> puede generar diferentes sonidos dependiendo de si es invocado por un objeto de la clase <strong>Perro</strong> o <strong>Gato</strong>.</p>
+            <img src="polimorfismo.png" alt="Diagrama de polimorfismo" />
+        </div>
+
+        <!-- 8. Abstracción -->
+        <div class="concept">
+            <h2>8. Abstracción</h2>
+            <p>La **abstracción** es el proceso de reducir la complejidad al enfocarse solo en los aspectos esenciales de un objeto, ignorando los detalles no relevantes. Un ejemplo sería la clase <strong>Vehículo</strong>, que solo define lo básico (como mover), sin importar si es un coche, moto o barco.</p>
+            <img src="abstraccion.png" alt="Diagrama de abstracción" />
+        </div>
+    </section>
+
+    <footer>
+        <p>Desarrollado por Andres Triana - 2024</p>
+    </footer>
+</body>
+</html>
+
+
+
